@@ -1,0 +1,34 @@
+{
+  "name": "opencode-preserve-format",
+  "version": "0.1.0",
+  "description": "OpenCode plugin that preserves original BOM and line endings when editing files",
+  "type": "module",
+  "main": "index.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timxx/opencode-preserve-format.git"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "line-endings",
+    "bom",
+    "crlf",
+    "lf",
+    "utf-16"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "build": "npm run typecheck"
+  },
+  "dependencies": {
+    "@opencode-ai/plugin": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.9.3",
+    "vitest": "^3.0.0"
+  },
+  "license": "MIT"
+}
