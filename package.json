@@ -1,6 +1,6 @@
 {
   "name": "opencode-preserve-format",
-  "version": "0.1.0",
+  "version": "2026.5.10",
   "description": "OpenCode plugin that preserves original BOM and line endings when editing files",
   "type": "module",
   "main": "index.ts",
@@ -17,6 +17,12 @@
     "lf",
     "utf-16"
   ],
+  "files": [
+    "index.ts"
+  ],
+  "publishConfig": {
+    "provenance": true
+  },
   "scripts": {
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
