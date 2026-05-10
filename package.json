@@ -21,6 +21,7 @@
     "index.ts"
   ],
   "publishConfig": {
+    "access": "public",
     "provenance": true
   },
   "scripts": {
